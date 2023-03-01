@@ -1,0 +1,46 @@
+{
+  "appartments": [
+    {
+      "id": 1,
+      "name": "Roseslands",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "price": 150000,
+      "img": "https://prod-saint-gobain-fr.content.saint-gobain.io/sites/saint-gobain.fr/files/2020-10/moderniser-appartement-la-maison-saint-gobain.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Orchardside",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "price": 150000,
+      "img": "https://prod-saint-gobain-fr.content.saint-gobain.io/sites/saint-gobain.fr/files/2020-10/moderniser-appartement-la-maison-saint-gobain.jpg"
+    },
+    {
+      "id": 3,
+      "name": "White Bank",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "price": 150000,
+      "img": "https://prod-saint-gobain-fr.content.saint-gobain.io/sites/saint-gobain.fr/files/2020-10/moderniser-appartement-la-maison-saint-gobain.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Old Rectory",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "price": 175000,
+      "img": "https://prod-saint-gobain-fr.content.saint-gobain.io/sites/saint-gobain.fr/files/2020-10/moderniser-appartement-la-maison-saint-gobain.jpg"
+    },
+    {
+      "name": "Amazing house",
+      "description": "jfjf fhdho uaaoeiu bdck",
+      "price": 250000,
+      "img": "https://www.indexsante.ca/chroniques/images/appartement-residence.jpg",
+      "id": 5
+    },
+    {
+      "name": "Cool Cool",
+      "description": "ndn dncdj djclsc ljhf l",
+      "price": 175000,
+      "img": "https://www.indexsante.ca/chroniques/images/appartement-residence.jpg",
+      "id": 7
+    }
+  ]
+}
