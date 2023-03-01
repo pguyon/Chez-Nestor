@@ -21,3 +21,7 @@ application that allows to see apartments and for the admin to create, edit and 
 
 ### json.server
 Launch server `npx npx json-server --watch data/db.json --port 8000`
+
+### Connect as Admin
+username: nestor
+password: nestor
