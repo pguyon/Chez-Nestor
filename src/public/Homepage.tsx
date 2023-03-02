@@ -21,23 +21,21 @@ const Homepage: React.FC<IHomepageProps> = () => {
 
 
     return (
-        <div className="flex flex-wrap justify-center">
-            {appartments.map(appartment => (
-                <Link to={`/appartment/${appartment.id}`} key={appartment.id}>
-                   <div  className="w-64 p-4 mx-2 my-4 border rounded-lg shadow-md hover:scale-[1.02] cursor-pointer">
-                    <img src={appartment.img} alt={appartment.name} className="w-full h-48 object-cover rounded-lg" />
-                    <div className="mt-4">
-                        <h2 className="text-lg font-semibold">{appartment.name}</h2>
-                        <p className="mt-2 text-gray-600 truncate truncate-overflow" >{appartment.description}</p>
-                        <p className="mt-2 font-semibold text-gray-900">{appartment.price}€</p>
-                    </div>
+        <div className="flex flex-wrap justify-center h-full">
+          {appartments.map(appartment => (
+            <Link to={`/appartment/${appartment.id}`} key={appartment.id}>
+              <div className="w-64 p-4 mx-2 my-4 border rounded-lg shadow-md hover:bg-slate-200 transition duration-150 ease-out hover:ease-in cursor-pointer hover:scale-[1.01] hover:shadow-lg">
+                <img src={appartment.img} alt={appartment.name} className="w-full h-48 object-cover rounded-lg" />
+                <div className="mt-4">
+                  <h2 className="text-lg font-semibold">{appartment.name}</h2>
+                  <p className="mt-2 text-gray-600 truncate truncate-overflow">{appartment.description}</p>
+                  <p className="mt-2 font-semibold text-gray-900">{appartment.price}€</p>
                 </div>
-                </Link>
-             
-            ))}
+              </div>
+            </Link>
+          ))}
         </div>
-
-    );
+      );
 }
 
 export default Homepage;

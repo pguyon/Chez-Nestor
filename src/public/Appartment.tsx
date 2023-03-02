@@ -16,16 +16,21 @@ interface IAppartmentProps {
 
 const Appartment: React.FC<IAppartmentProps> = ({ appartment }) => {
   return (
-    <div className="md:flex md:items-center md:justify-center">
-      <div className="md:w-1/2">
-        <h1 className="text-3xl font-bold mb-4">{appartment.name}</h1>
-        <h2 className="text-lg mb-4">{appartment.description}</h2>
-        <p className="text-xl mb-4">{appartment.price}€</p>
-      </div>
-      <div className="md:w-1/2">
-        <img src={appartment.img} alt={appartment.name} className="w-full rounded-lg" />
+    <div className="flex flex-col md:flex-row md:items-center md:justify-center">
+    <div className="md:w-1/2 md:pr-8">
+      <h1 className="text-4xl font-bold mb-4">{appartment.name}</h1>
+      <h2 className="text-lg mb-4">{appartment.description}</h2>
+      <p className="text-2xl mb-4">{appartment.price}€</p>
+    </div>
+    <div className="md:w-1/2">
+      <div className="overflow-hidden rounded-tl-3xl rounded-bl-full ">
+        <img src={appartment.img} alt={appartment.name} className="w-full h-full object-cover " />
       </div>
     </div>
+  </div>
+  
+  
+
   );
 };
 
